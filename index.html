@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<title> bakery "Sweet buns"
+	</title>
+    </head>
+        <body id="body">
+	        <main id="main">
+                <h1 id="title">
+                Ваше мнение о пекарне "Sweet buns"
+                </h1>
+                <p id="description">Благодарим Вас за обратную связь!</p>
+                <div id="ramka">
+                    <form action="handler.php" method="POST" id="survey-form">
+                        <p><label for="name" id="name-label">Ваше имя:</label><br> 
+                        <input type="text" name="firstname" value="" id="name" required placeholder="type your name here">
+                        </p>
+                        <p><label for="email" id="email-label">Ваш электронный адрес:</label><br> 
+                        <input type="email" name="email" value="" id="email" required placeholder="type your email here">
+                        </p>
+                        <p><label for="number" id="number-label">Ваш номер телефона:</label><br> 
+                        <input type="number" name="tel" value="" id="number" required pattern = "+7[0-9]{10}" min="10" max="10" placeholder="type your telephone number here +7xxxxxxxxxx">
+                        </p>
+                        <p>Ваш любимый продукт в нашей пекарне:<br> 
+                        <select size="3" multiple name="buns[]"id="dropdown">
+                        <option disabled>Выберете продукт</option>
+                        <option value="Ватрушка">Ватрушка</option>
+                        <option value="Пончик">Пончик</option>
+                        <option value="Пирожок с яблоком">Пирожок с яблоком</option>
+                        </select>
+                        </p>
+                            <p>Порекомендуете ли Вы нашу пекарню своим знакомым?</p>
+                            <p id="radio">
+                            <input type="radio" name="recomend" value="yes">Да, конечно<br>
+                            <input type="radio" name="recomend" value="no">Нет, ни за что<br>
+                            <input type="radio" name="recomend" value="maybe">Возможно, не уверен<br>
+                            </p>
+                                <p>Отметьте, что Вам особенно нравится в нашем заведении</p>
+                                <p id="check">
+                                   <input type="checkbox" name="like" value="clean">Чистота в зале<br>
+                                   <input type="checkbox" name="like" value="girls">Красивые официантки<br>
+                                   <input type="checkbox" name="like" value="tasty">Вкусные булочки<br>
+                                   <input type="checkbox" name="like" value="none">Ничего, все плохо<br>
+                                </p>
+                                    <p>Ваши отзывы и предложения:<br>
+                                        <textarea name="comments" rows="5" cols="30" id="comments"></textarea>
+                                    </p>
+                                        <input type="submit" value="Отправить" id="submit">
+                    
+                    </form>
+                </div>
+            </main>
+        </body>
+</html>

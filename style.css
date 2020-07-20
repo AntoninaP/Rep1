@@ -1,0 +1,108 @@
+#body{
+    background-image: url(https://avatars.mds.yandex.net/get-pdb/2508630/5bb57902-b0fb-4057-8b32-a9929071395b/s1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+#title{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: cornsilk;
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 3em;
+}
+
+#description{
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: cornsilk;
+    text-align: right;
+    margin-right: 2em;
+    margin-top: 1em; 
+}
+
+#ramka{
+    position: absolute;
+    width: 55em;
+    height: 52em;
+    top: 17em;
+    right: 3em;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 0.5em;
+    }
+
+#survey-form{
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    line-height: 1em;
+    color: cornsilk; 
+    padding-left: 3em;
+    }
+
+    #name{
+        width: 55em;
+        height: 2.5em;
+        border-radius: 0.5em;
+        color: black;
+   }
+
+   #email{
+    width: 55em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    color: black;
+    }
+
+    #number{
+        width: 55em;
+        height: 2.5em;
+        border-radius: 0.5em;
+        color: black;
+    }
+
+#dropdown{
+    width: 55em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    color:black;
+    }
+
+    #radio{
+        font-size: 0.8em;
+        font-weight: normal;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        line-height: 1em; 
+        color: cornsilk;
+    }
+
+    #check{
+        font-size: 0.8em;
+        font-weight: normal;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        line-height: 1em; 
+        color: cornsilk;  
+    }
+
+    #comments{
+        width: 55em;
+        height: 5em;
+        border-radius: 0.5em;
+        color:black; 
+    }
+
+    #submit{
+        width: 7em;
+        height: 3em;
+        border-radius: 0.5em;
+        color:black;
+    }
